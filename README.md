@@ -5,6 +5,7 @@ import robocode.*;
 
 public class Hu_Tao extends JuniorRobot
 {
+
 	int up = 0;
 	int right = 90;
 	int down = 180;
