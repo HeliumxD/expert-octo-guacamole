@@ -29,7 +29,6 @@ public class Hu_Tao extends JuniorRobot
 		out.println("FIRE!");
 		fire(2);
 	}
-	
 	public void onHitByBullet() {
 		turnTo(down);
 		out.println("Bye");
