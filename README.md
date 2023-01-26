@@ -24,6 +24,7 @@ public class Hu_Tao extends JuniorRobot
 			turnGunTo(down);
 			turnGunTo(up);
 	}
+	
 }
 
 	public void onScannedRobot() {
@@ -43,6 +44,6 @@ public class Hu_Tao extends JuniorRobot
 
 	public void onHitWall() {
 		out.println("Nice");
-	}	
+	}
+	
 }
-
