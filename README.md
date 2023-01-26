@@ -24,11 +24,13 @@ public class Hu_Tao extends JuniorRobot
 			turnGunTo(up);
 	}
 }
+
 	public void onScannedRobot() {
 	  	turnGunTo(scannedAngle);
 		out.println("FIRE!");
 		fire(2);
 	}
+	
 	public void onHitByBullet() {
 		turnTo(down);
 		out.println("Bye");
